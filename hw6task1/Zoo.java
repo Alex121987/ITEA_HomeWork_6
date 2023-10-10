@@ -21,14 +21,14 @@ public class Zoo {
         String capybara = "Capybara";
         String moose = "Moose";
 
-        animalsInZoo.add(elephant);
-        animalsInZoo.add(tiger);
-        animalsInZoo.add(lion);
-        animalsInZoo.add(giraffe);
-        animalsInZoo.add(hipo);
-        animalsInZoo.add(deer);
-        animalsInZoo.add(capybara);
-        animalsInZoo.add(moose);
+        animalsInZoo.add(0, elephant);
+        animalsInZoo.add(1, tiger);
+        animalsInZoo.add(2, lion);
+        animalsInZoo.add(3, giraffe);
+        animalsInZoo.add(4, hipo);
+        animalsInZoo.add(5, deer);
+        animalsInZoo.add(6, capybara);
+        animalsInZoo.add(7, moose);
 
         System.out.println(animalsInZoo);
     }
