@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Enter job: ");
             String job = scanner.nextLine();
             try {
-                System.out.println("Enter age: ");
+                System.out.println("Enter date of beginning of the career: ");
                 int year = scanner.nextInt();
                 scanner.nextLine();
                 listOfWorkers.add(new Worker(name, job, year));
@@ -31,7 +31,7 @@ public class Main {
         listOfWorkers.sort(comparator);
         System.out.println(listOfWorkers);
 
-        System.out.println("Enter some age: ");
+        System.out.println("Enter some number: ");
         int higherBorderOfAge = scanner.nextInt();
         System.out.println("Workers, whose stage higher then entered number:");
         for (Worker worker: listOfWorkers) {
