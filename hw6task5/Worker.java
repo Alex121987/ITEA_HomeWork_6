@@ -39,7 +39,7 @@ public class Worker {
 
     @Override
     public String toString() {
-        return "Worker "+"Name: "+PIB+", job: "+job+", year: "+year+"\n";
+        return "Worker "+"Name: "+PIB+", job: "+job+", year: "+year;
     }
 }
 
