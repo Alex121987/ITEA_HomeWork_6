@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Worker> listOfWorkers = new ArrayList<>();
-        int counter = 2;
+        int counter = 5;
         String name;
         String job;
         int year = 0;
