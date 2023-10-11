@@ -4,6 +4,6 @@ import java.util.Comparator;
 
 class WorkerComparator implements Comparator<Worker> {
     public int compare(Worker worker1, Worker worker2) {
-        return worker1.getPIB().compareTo(worker2.getPIB());
+        return worker1.getPIB().toLowerCase().compareTo(worker2.getPIB().toLowerCase());
     }
 }
